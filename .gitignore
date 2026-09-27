@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build/cache
+.pytest_cache/
+.mypy_cache/
+
+# Antigravity metadata
+*.metadata.json
+
+# Python tooling / test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Generated notebook/runtime files
+.ipynb_checkpoints/
+
+# Local model/data exports and temporary outputs
+outputs/
+results/
+*.zip
